@@ -1,0 +1,6 @@
+ca/certs
+ca/newcerts
+ca/crl
+ca/private
+ca/index.txt*
+ca/serial*
