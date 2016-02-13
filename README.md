@@ -20,7 +20,7 @@ Make sure all your permissions are secure (not readable by any other potential u
     openssl genrsa -out private/server.key.pem 2048
 
     # generate certificate request
-    openssl req -config openssl.cnf -key private/server.key.pem -new -sha256 -out newcerts/server.key.pem
+    openssl req -config openssl.cnf -key private/server.key.pem -new -sha256 -out newcerts/server.csr.pem
 
     # sign certificate request with ca
     openssl ca -config openssl.cnf -extensions server_cert -days 375 -notext -md sha256 -in newcerts/server.csr.pem -out certs/server.crt.pem
