@@ -1,5 +1,12 @@
 # uLinux CA skeleton
 
+## Preparations
+Create required files in `ca/`
+    touch index.txt
+    echo 1000 > serial
+
+Make sure all your permissions are secure (not readable by any other potential users on the system).
+
 ## Create Root CA
     # in ca/
     # generate key
