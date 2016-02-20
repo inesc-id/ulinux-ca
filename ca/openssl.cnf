@@ -117,7 +117,7 @@ nsComment = "OpenSSL Generated Server Certificate"
 subjectKeyIdentifier = hash
 authorityKeyIdentifier = keyid,issuer:always
 keyUsage = critical, digitalSignature, keyEncipherment
-extendedKeyUsage = serverAuth, clientAuth
+extendedKeyUsage = serverAuth
 
 [ crl_ext ]
 # Extension for CRLs (`man x509v3_config`).
