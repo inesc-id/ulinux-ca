@@ -2,6 +2,7 @@
 
 ## Preparations
 Create required files in `ca/`
+
     touch index.txt
     echo 1000 > serial
 
